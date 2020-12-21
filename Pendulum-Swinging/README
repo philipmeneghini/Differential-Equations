@@ -1,0 +1,4 @@
+This program uses three different approaches to solving the ODE of a swinging pendulum. All results and graphs use a pendulum of length 0.5 meters and an initial displacement
+of 0.4 radians. I first break the second order ODE into a system of first order ODEs. I then solve the system of ODEs with Euler's which has a considerable amount of error and 
+then I solve it with Runge-Kutta of second and third order. All these results are compared and the differences are used to show how the error decreasing when using a more 
+powerful method like Runge-Kutta.
